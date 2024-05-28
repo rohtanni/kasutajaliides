@@ -1226,6 +1226,18 @@ video {
 }
 
 @media (min-width: 976px) {
+  .lg\:absolute {
+    position: absolute;
+  }
+
+  .lg\:left-0 {
+    left: 0px;
+  }
+
+  .lg\:top-0 {
+    top: 0px;
+  }
+
   .lg\:order-1 {
     order: 1;
   }
@@ -1240,6 +1252,10 @@ video {
 
   .lg\:col-span-2 {
     grid-column: span 2 / span 2;
+  }
+
+  .lg\:mt-16 {
+    margin-top: 4rem;
   }
 
   .lg\:block {
@@ -1282,6 +1298,10 @@ video {
 
   .lg\:pl-20 {
     padding-left: 5rem;
+  }
+
+  .lg\:pr-20 {
+    padding-right: 5rem;
   }
 
   .lg\:text-left {
