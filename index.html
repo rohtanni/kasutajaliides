@@ -1,0 +1,476 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Annika Rohtmets</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <!-- siia lisa bootstrap vms lingid -->
+  <link rel="stylesheet" href="output.css">
+  <link rel="stylesheet" href="input.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  
+<style>
+    html, body {
+      overflow-x: hidden;
+    }
+    .swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+    .swiper-slide img {
+      width: 100%;
+      height: auto;
+    }
+    .swiper-pagination-bullet {
+      background: #fff;
+    }
+  </style>
+
+</head>
+
+<body class="min-h-screen">
+  <header class="bg-gray opacity-90 absolute top-0 left-0 w-full z-20">
+    <div class="container mx-auto p-4 bg-white bg-opacity-90">
+      <div class="flex justify-between items-center">
+        <a href="" class="logo">
+          <img src="assets/logo.png" alt="Logo" class="md:pl-28">
+        </a>
+        <div class="block md:hidden">
+          <img src="assets/menu.png" alt="Menu">
+        </div>
+      </div>
+      <hr class="border-red w-full my-2">
+      <div class="container mx-auto p-4 hidden md:flex justify-between items-center">
+        <div class="flex space-x-4">
+          <ul class="opacity-70 uppercase font-bold text-sm flex flex-row space-x-4">
+            <li class="pl-28"><a href="#">about cherry</a></li>
+            <li><a href="#">business areas</a></li>
+            <li><a href="#">corporate governance</a></li>
+            <li><a href="#">investors</a></li>
+            <li><a href="#">media</a></li>
+            <li><a href="#">career</a></li>
+            <li><a href="#">contact</a></li>
+          </ul>
+        </div>
+        <div class="flex items-center space-x-2">
+          <h4 class="text-red text-sm pr-2">CHER B: 59.50sek +1.</h4>
+          <a class="bg-red text-white rounded px-2 flex items-center" href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <p class="pr-2">ENG</p>
+            <img src="assets/arrow.png" alt="Arrow">
+          </a>
+        </div>
+        <div class="flex items-center">
+          <a href="#"><img class="pr-6" src="assets/search-icon.png" alt=""></a>
+        </div>
+      </div>
+    </div>
+    <div class="md:hidden">
+      <div class="menu-items py-2 hidden">
+        <ul class="uppercase flex flex-col space-y-2">
+          <li class="menu-item"><a href="#">about cherry</a></li>
+          <li class="menu-item"><a href="#">business areas</a></li>
+          <li class="menu-item"><a href="#">corporate governance</a></li>
+          <li class="menu-item"><a href="#">investors</a></li>
+          <li class="menu-item"><a href="#">media</a></li>
+          <li class="menu-item"><a href="#">career</a></li>
+          <li class="menu-item"><a href="#">contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+<div class="container mx-auto">
+  
+
+  <!-- Ensure no padding or margin around the carousel container -->
+  <div class="w-full mt-0">
+    <!-- Swiper -->
+    <div class="swiper-container hero-items relative">
+      <div class="swiper-wrapper">
+        <!-- Slide 1 -->
+        <div class="swiper-slide">
+          <div class="relative">
+            <img src="assets/image.png" alt="" class="block w-full h-auto">
+            <div class="absolute inset-0 bg-red bg-opacity-30"></div>
+            <h2 class="absolute inset-0 flex items-center justify-center text-white text-center font-bold text-4xl">Lorem ipsum dolor sit amet</h2>
+          </div>
+        </div>
+        <!-- Slide 2 -->
+        <div class="swiper-slide">
+          <div class="relative">
+            <img src="assets/image.png" alt="" class="block w-full h-auto">
+            <div class="absolute inset-0 bg-red bg-opacity-30"></div>
+            <h2 class="absolute inset-0 flex items-center justify-center text-white text-center font-bold text-4xl">Lorem ipsum dolor sit amet</h2>
+          </div>
+        </div>
+        <!-- Slide 3 -->
+        <div class="swiper-slide">
+          <div class="relative">
+            <img src="assets/image.png" alt="" class="block w-full h-auto">
+            <div class="absolute inset-0 bg-red bg-opacity-30"></div>
+            <h2 class="absolute inset-0 flex items-center justify-center text-white text-center font-bold text-4xl">Lorem ipsum dolor sit amet</h2>
+          </div>
+        </div>
+        <!-- Slide 4 -->
+        <div class="swiper-slide">
+          <div class="relative">
+            <img src="assets/image.png" alt="" class="block w-full h-auto">
+            <div class="absolute inset-0 bg-red bg-opacity-30"></div>
+            <h2 class="absolute inset-0 flex items-center justify-center text-white text-center font-bold text-4xl">Lorem ipsum dolor sit amet</h2>
+          </div>
+        </div>
+          <!-- Slide 5 -->
+          <div class="swiper-slide">
+            <div class="relative">
+              <img src="assets/image.png" alt="" class="block w-full h-auto">
+              <div class="absolute inset-0 bg-red bg-opacity-30"></div>
+              <h2 class="absolute inset-0 flex items-center justify-center text-white text-center font-bold text-4xl">Lorem ipsum dolor sit amet</h2>
+            </div>
+          </div>
+        </div>
+       <!-- Add Pagination -->
+      <div class="swiper-pagination"></div>
+      <!-- Add Navigation -->
+      <div class="swiper-button-next text-white absolute top-1/2 transform -translate-y-1/2 right-0 mr-4"></div>
+      <div class="swiper-button-prev text-white absolute top-1/2 transform -translate-y-1/2 left-0 ml-4"></div>
+    </div>
+    </div>
+  
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper('.swiper-container', {
+        loop: true,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+      });
+    </script>
+
+  
+  <main>
+    <section class="w-full">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 text-white text-center">
+        <div class="bg-purple flex flex-col items-center justify-between p-4">
+          <div>
+            <h5 class="font-bold pt-8 text-2xl">Pressreleases</h5>
+            <div class="group p-4">
+              <p class="text-sm">July 10, 2017</p>
+              <p class="font-bold">PM 1 lorem ipsum dolor sit</p>
+            </div>
+            <div class="group p-2">
+              <p class="text-sm">July 10, 2017</p>
+              <p class="font-bold">PM 1 lorem ipsum dolor sit</p>
+            </div>
+            <div class="group p-2">
+              <p class="text-sm">July 10, 2017</p>
+              <p class="font-bold">PM 1 lorem ipsum dolor sit</p>
+            </div>
+            <div class="group p-2">
+              <p class="text-sm">July 10, 2017</p>
+              <p class="font-bold">PM 1 lorem ipsum dolor sit</p>
+            </div>
+          </div>
+          <div class="pb-10">
+            <a class="bg-white inline-block rounded-md p-2 mt-4">
+            <button class="text-purple font-bold px-4 rounded-md">
+              Lorem ipsum
+            </button>
+          </a>
+          </div>
+          
+        </div>
+        <div class="bg-orange flex flex-col items-center justify-between p-4">
+          <div>
+            <h5 class="font-bold pt-8 text-2xl">Calendar</h5>
+            <div class="group p-4">
+              <p class="text-sm">July 10, 2017</p>
+              <p class="font-bold">PM 1 lorem ipsum dolor sit</p>
+            </div>
+            <div class="group p-2">
+              <p class="text-sm">July 10, 2017</p>
+              <p class="font-bold">PM 1 lorem ipsum dolor sit</p>
+            </div>
+            <div class="group p-2">
+              <p class="text-sm">July 10, 2017</p>
+              <p class="font-bold">PM 1 lorem ipsum dolor sit</p>
+            </div>
+            <div class="group p-2">
+              <p class="text-sm">July 10, 2017</p>
+              <p class="font-bold">PM 1 lorem ipsum dolor sit</p>
+            </div>
+          </div>
+          <div class="pb-10">
+            <a class="bg-white inline-block rounded-md p-2 mt-4">
+            <button class="text-orange font-bold px-4 rounded-md">
+              Lorem ipsum
+            </button>
+          </a>
+          </div>
+          
+        </div>
+        <div class="bg-green flex flex-col items-center justify-between p-4">
+          <div>
+            <h5 class="font-bold pt-8 text-2xl">Cherry Interim Report</h5>
+            <p class="p-4">Nam porttitor blandit accumsan. Ut vel dictum sem, a pretium dui. In malesuada enim in dolor euismod.</p>
+            <div class="flex items-center p-2">
+              <img src="assets/pdf.png" alt="PDF Icon" class="w-6 h-6">
+              <p class="font-bold ml-2">Report Q2 2017</p>
+            </div>
+            <div class="flex items-center p-2">
+              <img src="assets/pdf.png" alt="PDF Icon" class="w-6 h-6">
+              <p class="font-bold ml-2">Presentation Q2 2017</p>
+            </div>
+            <div class="flex items-center p-2">
+              <img src="assets/tabs.png" alt="Tabs Icon" class="w-6 h-6">
+              <p class="font-bold ml-2">Webcast Q2 2017</p>
+            </div>
+            <div class="flex items-center p-2">
+              <img src="assets/xls.png" alt="XLS Icon" class="w-6 h-6">
+              <p class="font-bold ml-2">Financial data Q2 2017</p>
+            </div>
+          </div>
+          <div class="pb-10">
+            <a class="bg-white inline-block rounded-md p-2 mt-4">
+            <button class="text-green font-bold px-4 rounded-md">
+              Lorem ipsum
+            </button>
+          </a>
+          </div>
+          
+        </div>
+        <div class="bg-red flex flex-col items-center justify-between p-4">
+          <div class="pt-16">
+            <h3 class="font-bold text-3xl pb-4">The Share</h3>
+            <div class="group p-2">
+              <h4 class="font-bold text-xl">NASDAQ OMXS (CHER B):</h4>
+            </div>
+            <div class="group p-2">
+              <h2 class="font-bold text-4xl">59.50 SEK<br>+1.75%</h2>
+            </div>
+          </div>
+          <div class="pb-10">
+            <a class="bg-white inline-block rounded-md p-2 mt-4">
+            <button class="text-red px-4 font-bold rounded-md">
+              Lorem ipsum
+            </button>
+          </a>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    
+    <section class="w-full">
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
+        <div class="lg:col-span-2 order-2 lg:order-1 flex flex-col justify-center p-4 lg:pl-20 pl-10 pr-10">
+          <h3 class="text-red font-bold text-2xl mb-4">Lorem ipsum</h3>
+          <p class="mb-4">Cherry är ett innovativt och snabbväxande spelföretag grundat 1963 vars övergripande strategi är att skapa aktievärde genom att äga och utveckla snabbväxande och lönsamma bolag inom spel och casino.
+          Idag bedriver Cherry sin verksamhet genom fem diversifierade affärsområden, Nätspel via Cherry iGaming, Prestationsbaserad Marknadsföring via Game Lounge, Spelteknologi via XCaliber, Spelutveckling via Yggdrasil Gaming och Restaurangcasino via Cherry Spelglädje.
+          Bolagets målsättning är att växa organiskt och genom strategiska förvärv av snabbväxande företag. Cherry sysselsätter cirka 900 personer och har drygt 4 600 aktieägare. Bolagets B-aktie är listad på AktieTorget.</p>
+          <a href="">
+              <button class="bg-red text-white inline-block mt-4 px-4 py-2 rounded">
+                   Lorem ipsum
+              </button>
+          </a>
+        </div>
+        <div class="order-1 lg:order-2 flex items-center justify-center p-4 lg:col-span-1">
+          <img src="assets/photo2.png" alt="">
+        </div>
+      </div>
+    </section>
+
+      <section class="w-full">
+        <div class="grid grid-cols-1 lg:grid-cols-2">
+          <div class="order-2 lg:order-1 flex flex-col justify-center p-4 bg-green bg-opacity-20 px-10">
+            <h2 class="text-green font-bold text-3xl mb-4">Online Gaming</h2>
+            <p class="mb-4">Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra eleifend lacus, vitae ullamcorper metus. Sed sollicitudin ipsum quis nunc sollicitudin ultrices. Donec euismod scelerisque ligula. Maecenas eu varius risus, eu aliquet arcu. Curabitur fermentum suscipit est, tincidunt mattis lorem luctus id. Donec eget massa a diam condimentum pretium. Sed sollicitudin ipsum quis nunc sollicitudin ultrices. Donec euismod scelerisque ligula. Maecenas eu varius risus, eu aliquet arcu. Donec eget massa a diam condimentum pretium.</p>
+          </div>
+          <div class="order-1 lg:order-2 flex items-center justify-center ">
+            <img src="assets/onlinegaming.png" alt="" class=" object-cover">
+          </div>
+        </div>
+      </section>
+      
+      <section class="w-full">
+        <div class="grid grid-cols-1 lg:grid-cols-2">
+          <div class="order-2 lg:order-2 flex flex-col justify-center p-4 bg-purple bg-opacity-20 px-10">
+            <h2 class="text-purple font-bold text-3xl mb-4">Restaurant Casino</h2>
+            <p class="text-purple font-bold">Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra eleifend lacus, vitae ullamcorper metus. Sed sollicitudin ipsum quis nunc sollicitudin ultrices. Donec euismod scelerisque ligula. Maecenas eu varius risus, eu aliquet arcu. Curabitur fermentum suscipit est, tincidunt mattis lorem luctus id. Donec eget massa a diam condimentum pretium. Sed sollicitudin ipsum quis nunc sollicitudin ultrices. Donec euismod scelerisque ligula. Maecenas eu varius risus, eu aliquet arcu. Donec eget massa a diam condimentum pretium. </p>
+          </div>
+            <div class="order-1 lg:order-1 flex items-center justify-center ">
+            <img src="assets/restaurantcasino.png" alt="" class=" object-cover">
+          </div>
+      </div>
+      </section>
+      
+      <section class="w-full">
+        <div class="grid grid-cols-1 lg:grid-cols-2">
+          <div class="order-2 lg:order-1 flex flex-col justify-center p-4 bg-orange bg-opacity-20 px-10">
+            <h2 class="text-orange font-bold text-3xl mb-4">Game Developement</h2>
+            <p class="text-orange font-bold">Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra eleifend lacus, vitae ullamcorper metus. Sed sollicitudin ipsum quis nunc sollicitudin ultrices. Donec euismod scelerisque ligula. Maecenas eu varius risus, eu aliquet arcu. Curabitur fermentum suscipit est, tincidunt mattis lorem luctus id. Donec eget massa a diam condimentum pretium. Sed sollicitudin ipsum quis nunc sollicitudin ultrices. Donec euismod scelerisque ligula. Maecenas eu varius risus, eu aliquet arcu. Donec eget massa a diam condimentum pretium. </p>
+          </div>
+            <div class="order-1 lg:order-2 flex items-center justify-center ">
+                <img src="assets/gamedev.png" alt="" class=" object-cover">
+            </div>
+        </div>
+      </section>
+      
+      <section class="w-full">
+        <div class="grid grid-cols-1 lg:grid-cols-2">
+          
+          <div class="order-2 lg:order-2 flex flex-col justify-center p-4 bg-blue bg-opacity-20 px-10">
+            <h2 class="text-blue font-bold text-3xl mb-4">Performance-based Marketing</h2>
+            <p class="text-blue font-bold">Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra eleifend lacus, vitae ullamcorper metus. Sed sollicitudin ipsum quis nunc sollicitudin ultrices. Donec euismod scelerisque ligula. Maecenas eu varius risus, eu aliquet arcu. Curabitur fermentum suscipit est, tincidunt mattis lorem luctus id. Donec eget massa a diam condimentum pretium. Sed sollicitudin ipsum quis nunc sollicitudin ultrices. Donec euismod scelerisque ligula. Maecenas eu varius risus, eu aliquet arcu. Donec eget massa a diam condimentum pretium.</p>
+          </div>
+          <div class="order-1 lg:order-1 flex items-center justify-center p-0">
+            <img src="assets/marketing.png" alt="Marketing" class="object-cover">
+          </div>
+        </div>
+      </section>
+
+      <section class="w-full">
+        <div class="grid grid-cols-1 lg:grid-cols-2">
+          <div class="order-2 lg:order-1 flex flex-col justify-center p-4 bg-gray bg-opacity-20 px-10">
+            <h2 class="text-gray font-bold text-3xl mb-4">Gaming Technology</h2>
+            <p class="text-gray font-bold">Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra eleifend lacus, vitae ullamcorper metus. Sed sollicitudin ipsum quis nunc sollicitudin ultrices. Donec euismod scelerisque ligula. Maecenas eu varius risus, eu aliquet arcu. Curabitur fermentum suscipit est, tincidunt mattis lorem luctus id. Donec eget massa a diam condimentum pretium. Sed sollicitudin ipsum quis nunc sollicitudin ultrices. Donec euismod scelerisque ligula. Maecenas eu varius risus, eu aliquet arcu. Donec eget massa a diam condimentum pretium. </p>
+          </div>
+          <div class="order-1 lg:order-2 flex items-center justify-center ">
+          <img src="assets/gamingtech.png" alt="" class="object-cover">
+        </div>
+      </div>
+    </section>
+
+    <section class="w-full">
+      <div class="grid grid-cols-1 lg:grid-cols-2">
+        <div class="order-2 lg:order-2 flex flex-col justify-center p-4 bg-red bg-opacity-20 px-10">
+          <h2 class="text-red font-bold text-3xl mb-4">Developement Projects</h2>
+            <p class="text-red font-bold">Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra eleifend lacus, vitae ullamcorper metus. Sed sollicitudin ipsum quis nunc sollicitudin ultrices. Donec euismod scelerisque ligula. Maecenas eu varius risus, eu aliquet arcu. Curabitur fermentum suscipit est, tincidunt mattis lorem luctus id. Donec eget massa a diam condimentum pretium. Sed sollicitudin ipsum quis nunc sollicitudin ultrices. Donec euismod scelerisque ligula. Maecenas eu varius risus, eu aliquet arcu. Donec eget massa a diam condimentum pretium. </p>
+          </div>
+          <div class="order-1 lg:order-1 flex items-center justify-center ">
+          <img src="assets/devprojects.png" alt="" class="object-cover">
+        </div>
+      </div>
+    </section>
+
+    <section class="socials">
+      <h4 class="text-center font-bold text-red pt-20 pb-4">Share this page</h4>
+      <div class="grid grid-cols-1 sm:grid-cols-5 w-full">
+        <a href="#" class="social ComeOn w-full">
+          <img src="assets/fb.png" alt="Facebook" class="w-full">
+        </a>
+        <a href="#" class="social RestaurangCasino w-full">
+          <img src="assets/twitter.png" alt="Twitter" class="w-full">
+        </a>
+        <a href="#" class="social Yggdrasil w-full">
+          <img src="assets/linkedin.png" alt="LinkedIn" class="w-full">
+        </a>
+        <a href="#" class="social GameLounge w-full">
+          <img src="assets/mail.png" alt="Email" class="w-full">
+        </a>
+        <a href="#" class="social GreyDark w-full">
+          <img src="assets/fax.png" alt="Fax" class="w-full">
+        </a>
+      </div>
+      
+    </section>
+  </main>
+  <footer class="bg-red bg-opacity-5">
+    <div class="flex items-center justify-center p-6">
+      <img src="assets/logo.png" alt="Logo" class="mx-auto">
+    </div>
+    <hr class="border-red mx-20">
+    <div class="flex flex-wrap justify-center">
+      <div class="w-full lg:w-1/6 p-2 lg:pl-20">
+        <ul class="text-center lg:text-left">
+          <li class="pb-2"><a href="" class="menu-item text-red font-bold">ABOUT CHERRY</a></li>
+          <li class="pb-2"><a href="" class="menu-item-s">Cherry in brief</a></li>
+          <li class="pb-2"><a href="" class="menu-item-s">Cherry's History</a></li>
+          <li class="pb-2"><a href="" class="menu-item-s">Responsible gaming</a></li>
+          <li class="pb-2"><a href="" class="menu-item-s">Legal Structure</a></li>
+        </ul> 
+      </div>
+      <div class="w-full lg:w-1/6 p-2">
+        <ul class="text-center lg:text-left">
+          <li class="pb-2"><a href="" class="menu-item text-red font-bold">BUSINESS AREAS</a></li>
+          <li class="pb-2"><a href="" class="menu-item-s">Online Gaming – ComeOn!</a></li>
+          <li class="pb-2"><a href="" class="menu-item-s">Gaming Technology - XCaliber</a></li>
+          <li class="pb-2"><a href="" class="menu-item-s">Game development – Yggdrasil Gaming & Highlights Games</a></li>
+          <li class="pb-2"><a href="" class="menu-item-s">Performance-based Marketing – Game Lounge</a></li>
+          <li class="pb-2"><a href="" class="menu-item-s">Restaurant Casino – Cherry Spelglädje</a></li>
+          <li class="pb-2"><a href="" class="menu-item-s">Development Projects</a></li>
+        </ul>
+      </div>
+      <div class="w-full lg:w-1/6 p-2">
+        <ul class="text-center lg:text-left">
+          <li class="pb-2"><a href="" class="menu-item text-red font-bold">CORPORATE GOVERNANCE</a></li>
+          <li class="pb-2"><a href="" class="menu-item-s">Corporate Governance</a></li>
+          <li class="pb-2"><a href="" class="menu-item-s">General Meeting</a></li>
+          <li class="pb-2"><a href="" class="menu-item-s">Annual General Meeting 2017</a></li>
+          <li class="pb-2"><a href="" class="menu-item-s">Nomination Committee</a></li>
+          <li class="pb-2"><a href="" class="menu-item-s">Boards of Directors</a></li>
+          <li class="pb-2"><a href="" class="menu-item-s">Management Team</a></li>
+          <li class="pb-2"><a href="" class="menu-item-s">Auditors</a></li>
+          <li class="pb-2"><a href="" class="menu-item-s">Remunerations</a></li>
+          <li class="pb-2"><a href="" class="menu-item-s">Incentive Programs</a></li>
+          <li class="pb-2"><a href="" class="menu-item-s">Internal Control</a></li>
+          <li class="pb-2"><a href="" class="menu-item-s">Minutes General Meetings</a></li>
+          <li class="pb-2"><a href="" class="menu-item-s">Articles of Association</a></li>
+        </ul>
+      </div>
+      <div class="w-full lg:w-1/6 p-2">
+        <ul class="text-center lg:text-left">
+          <li class="pb-2"><a href="" class="menu-item text-red font-bold">ABOUT CHERRY</a></li>
+          <li class="pb-2"><a href="" class="menu-item-s">Cherry in brief</a></li>
+          <li class="pb-2"><a href="" class="menu-item-s">Cherry's History</a></li>
+          <li class="pb-2"><a href="" class="menu-item-s">Responsible gaming</a></li>
+          <li class="pb-2"><a href="" class="menu-item-s">Legal Structure</a></li>
+        </ul> 
+      </div>
+      <div class="w-full lg:w-1/6 p-2">
+        <ul class="text-center lg:text-left">
+          <li class="pb-2"><a href="" class="menu-item text-red font-bold">ABOUT CHERRY</a></li>
+          <li class="pb-2"><a href="" class="menu-item-s">Cherry in brief</a></li>
+          <li class="pb-2"><a href="" class="menu-item-s">Cherry's History</a></li>
+          <li class="pb-2"><a href="" class="menu-item-s">Responsible gaming</a></li>
+          <li class="pb-2"><a href="" class="menu-item-s">Legal Structure</a></li>
+        </ul> 
+      </div>
+      <div class="w-full lg:w-1/6 p-2 pr-20">
+        <ul class="text-center lg:text-left">
+          <li class="pb-2"><a href="" class="menu-item text-red font-bold">ABOUT CHERRY</a></li>
+          <li class="pb-2"><a href="" class="menu-item-s">Cherry in brief</a></li>
+          <li class="pb-2"><a href="" class="menu-item-s">Cherry's History</a></li>
+          <li class="pb-2"><a href="" class="menu-item-s">Responsible gaming</a></li>
+          <li class="pb-2"><a href="" class="menu-item-s">Legal Structure</a></li>
+        </ul> 
+      </div>
+    </div>    
+    <hr class="border-red mx-20">
+    <div class="text-center pt-2">
+      <p>Nam porttitor blandit accumsan. Ut vel dictum sem, a pretium dui. In malesuada enim in dolor euismod.</p>
+      <div class="links text-red pb-16">
+        <a href="">Lorem ipsum</a>
+        <a href="">Lorem ipsum</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- scripts -->
+  <script src="javascripts/main.min.js"></script>
+</body>
+</html>
